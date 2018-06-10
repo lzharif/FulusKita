@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">Fulus Kita</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Masuk</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Masukkan email yang valid</string>
+    <string name="error_invalid_password">Password terlalu pendek, minimal 6 karakter ya</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login">Masuk</string>
+    <string name="btn_forgot_password">Lupa password?</string>
+    <string name="btn_link_to_register">Belum punya akun? Daftar dulu aja</string>
+    <string name="insert_email">Masukkan emailmu terlebih dahulu</string>
+    <string name="insert_password">Masukkan password mu terlebih dahulu</string>
+    <string name="short_password">Password mu terlalu pendek. Minimal 6 karakter ya</string>
+    <string name="auth_failed">Login gagal, pastikan email dan password mu benar dulu ya</string>
+    <string name="title_forgot_password">Lupa password?</string>
+    <string name="desc_forgot_password">Masukkan emailmu yang terdaftar di Fulus Kita agar kami bisa kirimkan link reset password</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_back"><![CDATA[<< Kembali]]></string>
+    <string name="success_send_reset">Email reset password telah dikirim. Silakan cek email mu</string>
+    <string name="error_send_reset">Gagal mengirim email reset password. Coba tunggu beberapa saat lagi</string>
+    <string name="username_hint">Nama pengguna mu</string>
+    <string name="register">Daftar</string>
+    <string name="btn_to_login">Sudah daftar? Ayo masuk ke sini</string>
+    <string name="title_register">Daftar Fulus Kita</string>
+    <string name="desc_register">Dengan Fulus Kita, kamu bisa berkolaborasi dalam manajemen keuangan bisnismu.</string>
+    <string name="username_exist">Nama Pengguna sudah ada, silakan gunakan nama pengguna yang lain</string>
+    <string name="insert_user">Silakan masukkan Nama Pengguna mu dulu</string>
+    <string name="error_register">Gagal mendaftar. Coba cek koneksimu terlebih dahulu</string>
+
+    <string name="nav_balance">Transaksi</string>
+    <string name="nav_profile">Profil</string>
+    <string name="nav_summary">Ringkasan</string>
+    <string name="nav_settings">Pengaturan</string>
+    <string name="other">Lainnya</string>
+    <string name="nav_about_us">Tentang Fulus Kita</string>
+    <string name="nav_donate">Donasi</string>
+    <string name="openDrawer">Open Drawer</string>
+    <string name="closeDrawer">Close Drawer</string>
+    <string name="content_dialog_donation">Hai! Jika kamu merasa sangat terbantu dengan aplikasi ini, 
+        kamu bisa donasi sebagian rezekimu sebagai ucapan terima kasih. Uang yang kami terima akan 
+        kami gunakan untuk menjaga keberlangsungan hidup kami. Dengan donasimu, kami juga bisa
+        mengerahkan usaha kami untuk membuat Fulus Kita menjadi aplikasi yang lebih baik lagi.\n
+        Donasi bisa melalui Bank Mandiri dengan No. Rek. 155-00-0487572-3 (a.n. Luthfi Zharif) atau
+        via Paypal. \n
+        Terima kasih banyak ya!
+    </string>
+    <string name="oke_dialog">Sip</string>
+    <string name="paypal_dialog_donation">Via Paypal</string>
+
+    <!-- Toolbar titles when navigation menu item is selected -->
+    <string-array name="nav_item_activity_titles">
+        <item>Transaksi</item>
+        <item>Profil</item>
+        <item>Ringkasan</item>
+        <item>Pengaturan</item>
+        <item>Fulus Kita</item>
+        <item>Donasi</item>
+    </string-array>
+
+    <!--About add / edit transaction-->
+    <string name="current_balance_text">Saldo Saat Ini</string>
+    <string name="title_activity_tes">TesActivity</string>
+    <string name="loading">Memuat…</string>
+    <string name="value_holder">%1$s%2$s %3$.2f</string>
+    <string name="hint_category_default">Pengeluaran</string>
+    <string name="hint_date_default">Hari ini</string>
+    <string name="hint_value_default">0</string>
+    <string name="hint_desc_default">Keterangan…</string>
+    <string name="today">Hari ini</string>
+    <string name="choose_category">Pilih Jenis Transaksi</string>
+    <string name="btn_send_transaction">Kirim</string>
+    <string name="error_failed_get_user">Gagal ambil info pengguna</string>
+    <string name="add_transaction_toolbar">Tambah Transaksi</string>
+    <string name="edit_transaction_toolbar">Ubah Transaksi</string>
+
+    <!--About setting-->
+    <string name="account">Akun</string>
+    <string name="change_email_key">changeEmail</string>
+    <string name="title_change_email">Ganti Email</string>
+    <string name="change_password_key">changePass</string>
+    <string name="title_change_password">Ganti Password</string>
+    <string name="logout_key">logOut</string>
+    <string name="logout_summary">Keluar dari akunmu</string>
+    <string name="logout">Keluar</string>
+    <string name="success_logout">Sampai jumpa kembali!</string>
+    <string name="change_email_toolbar_title">Ganti Email</string>
+    <string name="change_password_toolbar_title">Ganti Password</string>
+    <string name="btn_change_account">Ganti</string>
+    <string name="success_change_email">Berhasil ganti email. Silakan masuk kembali dengan email barumu</string>
+    <string name="failed_change_email">Gagal ganti email. Coba cek koneksimu terlebih dahulu</string>
+    <string name="success_change_password">Berhasil ganti password. Silakan masuk kembali dengan kata kunci barumu</string>
+    <string name="failed_change_password">Gagal ganti password. Coba cek koneksimu terlebih dahulu</string>
+    <string name="email_hint_old">Email saat ini</string>
+    <string name="email_hint_new">Email baru</string>
+    <string name="password_hint">Password baru</string>
+    <string name="setting_title">Pengaturan</string>
+    <string name="detail_about_fuluskita">Fulus Kita adalah aplikasi manajemen keuangan bisnis kolektif yang ditujukan untuk UKM</string>
+    <string name="ads_contact_us">Mau bekerjasama dengan kami? Yuk kontak developer kami di sini:</string>
+    <string name="contact_us">Kontak kami di sini:</string>
+    <string name="website_fuluskita">http://lzharif.com/fuluskita</string>
+    <string name="website_fuluskita_text">Website Fulus Kita</string>
+    <string name="email_fuluskita">zharifluthfi@gmail.com</string>
+    <string name="copy_right">Copyrights © %1$d</string>
+
+</resources>

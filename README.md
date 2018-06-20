@@ -23,6 +23,7 @@ FulusKita version: **beta.1**
 4. Transaction summary
 5. Export data to the spreadsheet
 6. Themes :D
+
 You can also request features by using issues with label 'enhancement'. Don't forget to include some description and example so I can clearly understand your request :)
 
 # Installation
